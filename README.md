@@ -4,6 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+### `npm run styleguide`
+
+Runs styleguidist
+Open [http://localhost:6060](http://localhost:6060) to view it in the browser.
+[https://react-styleguidist.js.org/docs/cli.html](DOCS)
+
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
