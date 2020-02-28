@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "description": "Mydlo",
+      "src": "https://picsum.photos/id/14/100/200",
+      "id": 4,
+      "price": 90
+    },
+    {
+      "description": "produkt z api",
+      "src": "https://picsum.photos/id/197/100/200",
+      "id": 5,
+      "price": 450
+    },
+    {
+      "description": "aabb",
+      "src": "https://picsum.photos/id/1449/100/200",
+      "id": 6,
+      "price": 333
+    }
+  ]
+}
