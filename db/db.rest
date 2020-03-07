@@ -2,13 +2,17 @@ GET http://localhost:3000/products
 
 ###
 
-POST http://localhost:3000/products
+GET http://localhost:3000/products/4
+###
+
+PUT http://localhost:3000/products/4
 content-type: application/json
 
 {
-    "description": "Mydfdsfdsdlo",
-    "src": "https://picsum.photos/id/14/100/200",
-    "price": 9055
+    "description": "rerererer",
+    "src": "https://picsum.photos/id/12/100/200",
+    "price": 9055,
+    "id": 4
 }
 
 ###

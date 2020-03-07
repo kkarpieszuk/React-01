@@ -3,7 +3,10 @@ import React from 'react';
 const AddNew = (
         {AddNewSend}
     ) => {
-    const SendIt = (event) => { AddNewSend( event ); }
+    const SendIt = (event) => { 
+        event.preventDefault();
+        AddNewSend( event ); 
+    }
     
        return (
         <form name='' onSubmit={ SendIt } >

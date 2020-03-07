@@ -1,10 +1,10 @@
 {
   "products": [
     {
-      "description": "Mydlo",
-      "src": "https://picsum.photos/id/14/100/200",
-      "id": 4,
-      "price": 90
+      "description": "dddd",
+      "src": "https://picsum.photos/id/12/100/200",
+      "price": 9055,
+      "id": 4
     },
     {
       "description": "produkt z api",
@@ -13,10 +13,28 @@
       "price": 450
     },
     {
-      "description": "aabb",
-      "src": "https://picsum.photos/id/1449/100/200",
+      "description": "cośtam",
+      "src": "https://picsum.photos/id/229/100/200",
       "id": 6,
-      "price": 333
+      "price": 150
+    },
+    {
+      "description": "wwww",
+      "src": "https://picsum.photos/id/129/100/200",
+      "id": 7,
+      "price": 1212
+    },
+    {
+      "description": "tttt",
+      "src": "https://picsum.photos/id/19/100/200",
+      "id": 8,
+      "price": 122
+    },
+    {
+      "description": "tttt",
+      "src": "https://picsum.photos/id/19/100/200",
+      "id": 9,
+      "price": 122
     }
   ]
 }

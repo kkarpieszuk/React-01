@@ -16,7 +16,7 @@ const productsAPI = () => {
         } )
     }
     const deleteProduct = ( id ) => {
-        return fetch( productsURI + "/" + id, {
+        return fetch( `${productsURI}/${id}`, {
             method: 'DELETE', 
             headers: {
                 'Content-Type': 'application/json'
@@ -24,7 +24,22 @@ const productsAPI = () => {
         } )
     }
 
-    return { fetchProducts, createProduct, deleteProduct }
+    const fetchProductById = ( id ) => {
+        return fetch( `${productsURI}/${id}` )
+        .then( (res) => res.json() );
+    }
+
+    const updateProduct = ( product = {} ) => {
+        return fetch( `${productsURI}/${product.id}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify( product )
+        } )
+    }
+
+    return { fetchProducts, createProduct, deleteProduct, fetchProductById, updateProduct }
 }
 
 export default productsAPI()
